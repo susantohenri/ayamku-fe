@@ -1,8 +1,9 @@
+import Routes from "./route/route"
 
 function App() {
   return (
     <>
-        Hello ShadCN!
+        <Routes />
     </>
   )
 }
