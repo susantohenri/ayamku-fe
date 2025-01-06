@@ -5,9 +5,9 @@ import {
     createRoutesFromElements
   } from 'react-router-dom';
   
-import LoginPage from '../pages/login.js';
-import DashboardPage from '../pages/dashboard.js';
-import NotFoundPage from '../pages/not-found.js';
+import LoginPage from '@/pages/login-page.js';
+import DashboardPage from '../pages/dashboard-page.js';
+import NotFoundPage from '../pages/not-found-page.js';
 import PublicRoutes from './public-route.js';
 import ProtectedRoutes from './protected-route.js';
 

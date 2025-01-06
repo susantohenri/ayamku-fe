@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from 'react-router-dom';
-import { useAuth } from '../context/auth-context-provider';
+import { useAuth } from '../contexts/auth-context-provider';
 
 const PublicRoutes = () => {
   const { accessToken } = useAuth();
