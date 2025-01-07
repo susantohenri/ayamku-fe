@@ -6,10 +6,10 @@ import {
   } from 'react-router-dom';
   
 import LoginPage from '@/pages/login-page.js';
-import DashboardPage from '../pages/dashboard-page.js';
-import NotFoundPage from '../pages/not-found-page.js';
-import PublicRoutes from './public-route.js';
-import ProtectedRoutes from './protected-route.js';
+import DashboardPage from '@/pages/dashboard-page.js';
+import NotFoundPage from '@/pages/not-found-page.js';
+import PublicRoutes from '@/routes/public-route.js';
+import ProtectedRoutes from '@/routes/protected-route.js';
 import UserPage from '@/pages/user-page.js';
 
 const Routes = () => {

@@ -1,8 +1,7 @@
 import { Navigate, Outlet } from 'react-router-dom';
-import { useAuth } from '../contexts/auth-context-provider';
+import { useAuth } from '@/contexts/auth-context-provider';
 import { AppSidebar } from '@/components/sidebars/app-sidebar';
-import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
-import { Separator } from '@/components/ui/separator';
+import { SidebarInset, SidebarProvider } from '@/components/ui/sidebar';
 
 const ProtectedRoutes = () => {
   const { accessToken } = useAuth();

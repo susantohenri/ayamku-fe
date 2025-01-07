@@ -1,6 +1,9 @@
 import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from "@/components/ui/breadcrumb";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { Separator } from "@radix-ui/react-separator";
+
+import UserDataTable from "@/components/tables/user-data-table.jsx";
 
 const UserPage = () => {
     return (
@@ -23,7 +26,17 @@ const UserPage = () => {
             </div>
           </header>
           <div className="flex-1 space-y-4 p-8 pt-6">
-            User goes here..
+            <div className="flex items-center justify-between space-y-2">
+              <h2 className="text-3xl font-bold tracking-tight">Users</h2>
+            </div>
+            <Card>
+              <CardHeader>
+                <CardTitle>User List</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <UserDataTable />
+              </CardContent>
+          </Card>
           </div>
         </>
     )

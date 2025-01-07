@@ -26,9 +26,9 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 
-import { NavMainSidebar } from "./nav-main-sidebar";
-import { NavUserSidebar } from "./nav-user-sidebar";
-import { TeamSwitcherSidebar } from "./team-switcher-sidebar";
+import { NavMainSidebar } from "@/components/sidebars/nav-main-sidebar";
+import { NavUserSidebar } from "@/components/sidebars/nav-user-sidebar";
+import { TeamSwitcherSidebar } from "@/components/sidebars/team-switcher-sidebar";
 
 // This is sample data.
 const data = {
